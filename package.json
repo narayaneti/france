@@ -22,5 +22,8 @@
     "random-number": "0.0.9",
     "request": "^2.88.2",
     "urlencode": "^1.1.0"
+  },
+  "scripts":{
+    "start":"$env:DEBUG='myapp:*'; npm start"
   }
 }
